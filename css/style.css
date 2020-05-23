@@ -1,0 +1,55 @@
+* {
+  margin:0; padding:0;
+}
+header {
+  height: 100px;
+  width: 100%;
+  padding: 15px 0;
+  background-color: #337079;    /*  背景色  */
+  color: white;                 /*  文字の色  */
+}
+header .headline{
+    line-height: 100px;
+    float: left;
+    font-size: 30px;
+    margin-left: 100px;
+}
+.nav-list {
+    line-height: 100px;
+    float: left;
+    margin-left: 30px;
+    list-style: none;
+}
+.nav-list-item {
+  list-style: none;
+  display: inline-block;
+  margin: 0 20px;
+}
+main {
+  height: 100px;
+  width: 100%;
+  padding: 25px 0;
+  background-color: #e6e6fa;
+  color: black;
+}
+main .resizeimage img {
+  width: 200px;
+  border-radius: 50%; /* 角丸半径を50%にする(=円形にする) */
+}
+main .description{
+    line-height: 100px;
+    float: left;
+    font-size: 30px;
+    margin-left: 20%;
+}
+
+footer{
+    width: 100%;
+    height: 100px;
+    background-color: #174a5c;
+    color: white;
+    text-align: center;
+}
+ul.footer-menu li {
+display: inline;
+}
