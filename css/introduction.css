@@ -1,0 +1,51 @@
+
+/*
+.icon i{
+  position: relative;
+  font-size: 150px;
+  top: 30px;
+  left: 30%;
+}
+
+.icon span{
+  position: relative;
+  font-size: 30px;
+  top: 0px;
+  left: 50%;
+}
+.message{
+  position: relative;
+  font-size: 20px;
+  top: 30px;
+  left: 50%;
+}
+*/
+.icon {
+    /*background: #453; /* 色変えれる */
+    padding: 50px;
+    overflow: hidden;
+}
+.icon__image {
+    position: relative;
+    /* テキスト右アイコン左
+    float: left;
+    left: 50%;
+    */
+    float: left;
+    left: 50%;
+    margin-right: 10%; /* アイコンとテキストの間の間隔  */
+}
+.icon__summary {
+    overflow: hidden;
+}
+.icon__heading {
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 10px; /* 見出しと本文の間隔  */
+}
+.icon i{
+  position: relative;
+  font-size: 150px;
+  top: 30px;
+  left: 50%;
+}
