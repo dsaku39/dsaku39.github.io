@@ -4,9 +4,9 @@
   box-sizing: border-box;
   text-decoration: none;
   color: #FFF;
-  width: 50px;
-  height: 50px;
-  line-height: 30px;
+  width: 80px;   /* 円の横幅  */
+  height: 80px;  /* 円の縦幅  */
+  line-height: 75px;/* アイコンが円のどこにくるか  */
   padding: 5px;
   font-size: 25px;
   border-radius: 50%;
@@ -24,5 +24,13 @@
 
 .btn-social-circle--twitter {
   background: #1da1f3;
-  border: solid 5px #1da1f3;
+  border: solid 5px #1da1f3;  /*  枠の太さ  */
+}
+
+.btn-social-circle--github {
+  background: #000000;
+  border: solid 5px #000000;
+}
+.btn-social-circle i{
+  font-size: 45px;   /* 中のアイコンの大きさを変化  */
 }
