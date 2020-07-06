@@ -30,12 +30,13 @@ body {
           justify-content: center;
 }
 .slider__nav {
-  width: 12px;
-  height: 12px;
+  /*大きさ変えれる！*/
+  width: 30px;
+  height: 30px;
   margin: 2rem 12px;
   border-radius: 50%;
   z-index: 10;
-  outline: 6px solid #ccc;
+  outline: 6px solid #ccc;/*見た目だけの大きさのみ変化できる(反応範囲は変わってない)*/
   outline-offset: -6px;
   box-shadow: 0 0 0 0 #333, 0 0 0 0 rgba(51, 51, 51, 0);
   cursor: pointer;
@@ -96,7 +97,7 @@ body {
           justify-content: center;
 }
 .slider__image {
-  font-size: 2.7rem;
+  font-size: 7rem;/*アイコンの大きさ*/
 }
 .slider__caption {
   font-weight: 700;
