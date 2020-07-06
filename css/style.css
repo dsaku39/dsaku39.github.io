@@ -59,6 +59,18 @@ footer{
 ul.footer-menu li {
 display: inline;
 }
+ol.ol__text li {
+    font-size: 16px;
+    /*font-weight: bold;*/
+    margin-bottom: 20px; /* 見出しと本文の間隔  */
+}
+ol.ol__text div {
+    font-size: 16px;
+    /*font-weight: bold;*/
+    margin-bottom: 20px; /* 見出しと本文の間隔  */
+    width: 60%;
+  	height: 300%;
+}
 
 
 ul li, ol li {
@@ -73,12 +85,4 @@ ul li, ol li {
   font-weight: bold;
   width: 60%;
 
-}
-
-.li__text {
-    font-size: 16px;
-    /*font-weight: bold;*/
-    margin-bottom: 10px; /* 見出しと本文の間隔  */
-    width: 60%;
-  	height: 300px;
 }
