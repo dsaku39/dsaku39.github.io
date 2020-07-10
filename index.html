@@ -8,12 +8,19 @@
   <link rel="stylesheet" type="text/css" href="./css/introduction.css">
   <link rel="stylesheet" type="text/css" href="./css/slide_tab.css">
   <link rel="stylesheet" type="text/css" href="./css/top.css">
-  <script src="./css/header.js"></script>
+  <link rel="stylesheet" type="text/css" href="./css/pie_chart.css">
+
+  <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+  <script type="text/javascript" src="/path/to/jquery.easy-pie-chart.js"></script>
+  <link rel="stylesheet" type="text/css" href="/path/to/jquery.easy-pie-chart.css">
+  <script type="text/javascript" src="./css/pie_chart.js"></script>
+
+
   <title> dsaku39' PROFILE </title>
 </head>
 
 <!-- top -->
-<div class="wrapper">
+<div class=" wrapper">
   <nav>
     <div class="container">
       <div class="navbar-header">
@@ -41,7 +48,7 @@
     <div class="optional-rainbow"></div>
   </section>
 
-  <!-- profile -->
+  <!--profile -->
   <section class="content">
     <div class="container">
       <article>
@@ -86,7 +93,7 @@
       <ol class='ol__text'>
         <li>人柄・性格</li>
         <p class='slider__txt'>
-      </p>
+                          </p>
         <li>大学での経験(学業面)</li>
         <p class='slider__txt'>
           専門分野のみに限らず，他分野(経済学など)の授業を履修し，複数の分野に触れるように意識した．また授業等で得た知識が正確にインプットできているかを確認するために，資格試験を受け，1回で合格することができた．研究では，研究室内のテーマを引き継ぐのではなく，自身でテーマを模索し，注目した課題を解決することを目指した．またFOSEでポスター発表や，SPI JAPANの聴講なども行った．
@@ -126,11 +133,31 @@
       <i class="slider__image fas fa-code-branch fa-fw"></i>
       <ol class='ol__text'>
         <li>経験したプログラミング言語</li>
-        <p class='slider__txt'>
-          C<bar>
-          Java<bar>
-          Python<bar>
-          </p>
+      </ol>
+
+      <!-- 円グラフ -->
+      <div class="panel">
+        <div class="ctrl">
+          <span>_</span>
+          <span>&times;</span>
+        </div>
+        <div class="chart">
+          <div class="percentage" data-percent="71">
+            <span>70</span><sup>%</sup>
+          </div>
+          <div class="label">Python</div>
+        </div>
+        <div class="chart">
+          <div class="percentage" data-percent="46">
+            <span>30</span><sup>%</sup>
+          </div>
+          <div class="label">C言語</div>
+        </div>
+      </div>
+
+      <ol class='ol__text'>
+        <div class="chart" data-percent="73">73%</div>
+
         <li>保有資格</li>
         <p class='slider__txt'>
           ITパスポート試験<bar>
@@ -145,20 +172,23 @@
       <ol class='ol__text'>
         <li>経験したプログラミング言語</li>
         <p class='slider__txt'>
-                </p>
+        </p>
         <li>保有資格</li>
         <p class='slider__txt'>
-                <a>ITパスポート試験</a>
-                <a>基本情報技術者試験</a>
-              </p>
+          <a>ITパスポート試験</a>
+          <a>基本情報技術者試験</a>
+        </p>
       </ol>
     </div>
   </div>
 </div>>
 
+
+
+
 <!-- footer -->
 <footer>
-  　　<ul class="footer-menu">
+  <ul class="footer-menu">
     <li>home ｜</li>
     <li>about ｜</li>
     <li>service ｜</li>

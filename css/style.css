@@ -80,7 +80,7 @@ ul li, ol li {
   padding: 0.5em;
   list-style-type: none!important;/*ポチ消す*/
   font-weight: bold;
-  width: 40%;
+  width: 700px;
   margin-right: auto;
   margin-left: auto;
 }
