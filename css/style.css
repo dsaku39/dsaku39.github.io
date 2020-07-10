@@ -4,13 +4,6 @@
 body {
 font-family: 'Avenir','Helvetica Neue','Helvetica','Arial','Hiragino Sans','ヒラギノ角ゴシック',YuGothic,'Yu Gothic','メイリオ', Meiryo,'ＭＳ Ｐゴシック','MS PGothic'
 }
-header {
-  height: 100px;
-  width: 100%;
-  padding: 15px 0;
-  background-color: #337079;    /*  背景色  */
-  color: white;                 /*  文字の色  */
-}
 header .headline{
     line-height: 100px;
     float: left;
@@ -28,13 +21,17 @@ header .headline{
   display: inline-block;
   margin: 0 20px;
 }
+
 main {
-  height: 100px;
+  margin-top: 10rem;
+  text-align: center;
+  height: 50%;
   width: 100%;
-  padding: 25px; /**/
+  padding: 25px;
   background-color: #e6e6fa;
   color: black;
 }
+
 main .resizeimage img {
   width: 200px;
   border-radius: 50%; /* 角丸半径を50%にする(=円形にする) */
