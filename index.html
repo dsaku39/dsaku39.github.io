@@ -6,13 +6,13 @@
   <link href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" rel="stylesheet">
   <link rel="stylesheet" type="text/css" href="./css/style.css">
   <link rel="stylesheet" type="text/css" href="./css/introduction.css">
-  <link rel="stylesheet" type="text/css" href="./css/pure.css">
+  <link rel="stylesheet" type="text/css" href="./css/slide_tab.css">
   <link rel="stylesheet" type="text/css" href="./css/top.css">
   <script src="./css/header.js"></script>
   <title> dsaku39' PROFILE </title>
 </head>
 
-
+<!-- top -->
 <div class="wrapper">
   <nav>
     <div class="container">
@@ -41,7 +41,7 @@
     <div class="optional-rainbow"></div>
   </section>
 
-
+  <!-- profile -->
   <section class="content">
     <div class="container">
       <article>
@@ -56,7 +56,7 @@
           OSS工学研究室で，IaC(Infrastructure as Code)に関する研究を行っている．<br>
           </p>
           <p>
-          現在は研究はもちろん，インターンや当サイトのような就活の準備をしている．<br>
+          現在は研究はもちろん，就活で自己PRをするためにインターン参加や当サイト作成などをしている．<br>
           自信のスキルを伸ばし，開発チームとして楽しく活動できる企業等を模索中．<br>
           スポーツや読書，ゲームを趣味とし，youtube活動もしている．<br>
           </p>
@@ -72,20 +72,36 @@
   </section>
 </div>
 
+<!-- tab設定 -->
 <div class="slider">
   <input class="slider__nav" type="radio" name="slider" title="slide1" checked="checked" />
   <input class="slider__nav" type="radio" name="slider" title="slide2" />
   <input class="slider__nav" type="radio" name="slider" title="slide3" />
   <input class="slider__nav" type="radio" name="slider" title="slide4" />
+  <!-- 以下，コンテンツ -->
   <div class="slider__inner">
-    <div class="slider__contents"><i class="slider__image far fa-address-card fa-fw"></i>
-      <h2 class="slider__caption">自己紹介</h2>
-      <p class="slider__txt">
-        </p>
-    </div>
-    <div class="slider__contents"><i class="slider__image fas fa-users-cog fa-fw"></i>
+    <!-- 自己紹介 -->
+    <div class="slider__contents">
+      <i class="slider__image far fa-address-card fa-fw"></i>
       <ol class='ol__text'>
-        <!-- <h2 class="slider__caption">研究分野</h2> -->
+        <li>人柄・性格</li>
+        <p class='slider__txt'>
+      </p>
+        <li>大学での経験(学業面)</li>
+        <p class='slider__txt'>
+          専門分野のみに限らず，他分野(経済学など)の授業を履修し，複数の分野に触れるように意識した．また授業等で得た知識が正確にインプットできているかを確認するために，資格試験を受け，1回で合格することができた．研究では，研究室内のテーマを引き継ぐのではなく，自身でテーマを模索し，注目した課題を解決することを目指した．またFOSEでポスター発表や，SPI JAPANの聴講なども行った．
+      </p>
+        <li>大学での経験(その他)</li>
+        <p class='slider__txt'>
+          大学生になるまで野球を主に行っていたため，勉強以外の教養が平均よりもないと感じていた．そのため大学では学問だけでなく，一般教養を鍛えることを意識して生活していた．そのため，大学1，2回を中心に読書と映画観賞を積極的に行った．特に読書に関しては，大学受験の際に自身に読解力が欠けていると感じていたため積極的に読書を行った．また小説などだけではなく，学術書も読み，2年間で100冊ほどを読んだ．
+      </p>
+      </ol>
+    </div>
+
+    <!-- 研究に関して -->
+    <div class="slider__contents">
+      <i class="slider__image fas fa-users-cog fa-fw"></i>
+      <ol class='ol__text'>
         <li>研究分野</li>
         <p class='slider__txt'>
           私はオープンソースソフトウェア工学研究室に属している．そのためOSSのデータを分析する研究が主になっている．
@@ -103,23 +119,44 @@
           そこで検証作業の負担を軽減するために，欠陥を含むIaCスクリプトの検出を行う欠陥予測モデルを構築することを目指している．
         </p>
       </ol>
-      </p>
     </div>
-    <div class="slider__contents"><i class="slider__image fas fa-code-branch fa-fw"></i>
-      <h2 class="slider__caption">保有スキルと資格</h2>
-      <p class="slider__txt">
-          ITパスポート試験
-          基本情報技術者試験
+
+    <!-- 保有スキル -->
+    <div class="slider__contents">
+      <i class="slider__image fas fa-code-branch fa-fw"></i>
+      <ol class='ol__text'>
+        <li>経験したプログラミング言語</li>
+        <p class='slider__txt'>
+          C<bar>
+          Java<bar>
+          Python<bar>
+          </p>
+        <li>保有資格</li>
+        <p class='slider__txt'>
+          ITパスポート試験<bar>
+          基本情報技術者試験<bar>
         </p>
+      </ol>
     </div>
-    <div class="slider__contents"><i class="slider__image far fa-address-card fa-fw"></i>
-      <h2 class="slider__caption">情報発信</h2>
-      <p class="slider__txt">
-        </p>
+
+    <!-- 保有スキル -->
+    <div class="slider__contents">
+      <i class="slider__image far fa-address-card fa-fw"></i>
+      <ol class='ol__text'>
+        <li>経験したプログラミング言語</li>
+        <p class='slider__txt'>
+                </p>
+        <li>保有資格</li>
+        <p class='slider__txt'>
+                <a>ITパスポート試験</a>
+                <a>基本情報技術者試験</a>
+              </p>
+      </ol>
     </div>
   </div>
-</div>
+</div>>
 
+<!-- footer -->
 <footer>
   　　<ul class="footer-menu">
     <li>home ｜</li>
